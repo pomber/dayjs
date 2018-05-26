@@ -17,7 +17,7 @@ describe('Core APIs', function () {
       .startOf('week')
       .add(1, 'day')
       .subtract(1, 'year')
-      .format('{YYYY} MM-DDTHH:mm:ss')).toBe('{2010} 04-25T00:00:00')
+      .format('{YYYY} MM-DDTHH:mm:ss')).toBe('{2010} 04-26T00:00:00')
   })
 
   it('Date parse - nonstandard date string with only one digit', function () {
