@@ -27,7 +27,7 @@ it('Date', () => {
 })
 
 it('Hour', () => {
-  expect(dayjs().hour()).toBe(moment().hour())
+  expect(dayjs().hour()).toBe(moment().minute())
 })
 
 it('Minute', () => {
